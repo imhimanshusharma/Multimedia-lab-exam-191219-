@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: "poppins";
+    background-color: rgba(140, 238, 12, 0.342);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 45%;
+    
+}
+
+.logo{
+    padding: 1rem 4rem;
+}
+
+.logo h1{
+    color: rgb(19, 107, 19);
+    text-shadow: 2px 2px 2px rgb(33, 218, 42);
+}
+
+.logo span{
+    color: rgb(69, 57, 138);
+}
+nav li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-weight: 600;
+}
+
+header button{
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    background-color: rgb(117, 240, 16);
+    color: rgb(27, 6, 6);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+
+.main{
+    display: flex;
+    height: 80vh;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+    padding-top: 2rem;
+}
+
+.main-img img{
+    max-height: 25rem;
+    max-width: 25rem;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.img-row
+{
+    display: flex;
+    padding: 1rem 0rem;
+    flex-direction: row;
+    gap: 1rem;
+}
+  
+.img-row img{
+    max-height: 4rem;
+    max-width: 4rem;
+    border-radius: 10px;
+}
+
+.img-row img:hover{
+    border: 4px solid gold;
+}
+
+.section2{
+    display: flex;
+    min-width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 8rem;
+}
+
+.section2 h2{
+    color: rgb(136, 133, 133);
+}
+.section2 p{
+    padding: 0rem 18rem 0rem 0rem;
+}
+
+.section2 button{
+    max-width: 10rem;
+    padding: 1rem;
+    background-color: rgb(71, 255, 47);
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
